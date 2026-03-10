@@ -1,0 +1,26 @@
+[project]
+name = "analytics-arxiv-2511-17083"
+version = "0.1.0"
+description = "Analytical expressions for the steady-state density matrix of a pair of coupled quantum emitters with local dephasing"
+readme = "README.md"
+authors = [{name = "Sébastien Quistrebert", email = "sebastien.quistrebert@ens-paris-saclay.fr" }]
+requires-python = ">=3.10"
+dependencies = [
+    "sympy>=1.14.0",
+]
+
+[project.optional-dependencies]
+np = [
+    "numpy>=2.2.6",
+]
+mpl = [
+    "matplotlib>=3.10.8",
+]
+
+[project.urls]
+Homepage = "https://arxiv.org/abs/2511.17083v1"
+Repository = "https://github.com/sq-lumin/analytics-arxiv-2511-17083"
+
+[build-system]
+requires = ["uv_build>=0.10.8,<0.11.0"]
+build-backend = "uv_build"
