@@ -11,3 +11,6 @@ For an example, see the jupyter notebook [notebooks/example_excitation_spectrum.
 
 > [!IMPORTANT]
 > since `gamma^*` is not a valid python variable name, the dephasing rate was renamed to `gamma_d`. All other notation is identical to the paper.
+
+> [!IMPORTANT]
+> since `_` cannot be used in mathematica variable variable names, all underscores were removes from those files. For instance: `Omega_R` => `OmegaR`
